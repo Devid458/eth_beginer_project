@@ -1,10 +1,10 @@
 # MY TOKEN SMART CONTRACT
 
-A basic smart contract to manage a cryptocurrency token called "MyToken," allowing users to mint (create) and burn (destroy) tokens while keeping track of balances..
+A basic smart contract to manage a cryptocurrency token called "GetToken" ,allowing users to mint (create) and burn (destroy) tokens while keeping track of balances..
 
 ## Description
 
-This project involves developing a smart contract for a cryptocurrency token named "MyToken" (symbol: MTK) using Solidity. The contract enables users to mint (create) and burn (destroy) tokens, with functionalities to adjust the total supply and individual balances accordingly. By maintaining a mapping of address balances, the contract ensures accurate tracking of token ownership. This project provides a foundational framework for managing digital assets, suitable for educational purposes, experimental projects, or as a starting point for more complex token systems..
+This project involves developing a smart contract for a cryptocurrency token named "GetToken" (symbol: MTK) using Solidity. The contract enables users to mint (create) and burn (destroy) tokens, with functionalities to adjust the total supply and individual balances accordingly. By maintaining a mapping of address balances, the contract ensures accurate tracking of token ownership. This project provides a foundational framework for managing digital assets, suitable for educational purposes, experimental projects, or as a starting point for more complex token systems..
 
 ## Getting Started
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
@@ -13,9 +13,9 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
     // SPDX-License-Identifier: MIT
     pragma solidity 0.8.18;
-    contract MyToken {
+    contract GetToken {
     // Public variables to store the details about the token
-    string public name = "MyToken"; // Token Name
+    string public name = "GetToken"; // Token Name
     string public symbol = "MTK";   // Token Abbreviation
     uint public totalSupply;        // Total Supply Mapping to store the balance of each address
     mapping(address => uint) public balances;
