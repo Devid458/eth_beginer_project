@@ -1,5 +1,5 @@
-MY TOKEN SMART CONTRACT
-
+**MY TOKEN SMART CONTRACT
+**
 A basic smart contract to manage a cryptocurrency token called "GetTokens," allowing users to mint (create) and burn (destroy) tokens while keeping track of balances..
 
 Description
